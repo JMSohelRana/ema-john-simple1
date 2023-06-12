@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Shop.css";
 import Product from "../Product/Product";
+import Cart from "../Cart/Cart";
 
 const Shop = () => {
   const [products, setProducts] = useState([]);
@@ -27,8 +28,11 @@ const Shop = () => {
           ></Product>
         ))}
       </div>
-      <div className="cart-container" style={{ margin: "5px 10px" }}>
-        <p>Selected items:{cart.length}</p>
+      <div
+        className="cart-container"
+        // style={{ margin: "5px 10px" }}
+      >
+        <Cart cart={cart}></Cart>
       </div>
     </div>
   );
