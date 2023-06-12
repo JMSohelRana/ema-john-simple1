@@ -1,4 +1,5 @@
 .product img{
+    
     margin: auto;
     display: block;
     width: 286px;
@@ -6,7 +7,8 @@
     border-radius: 10px;
 }
 .product{
-    border: 1px solid rgb(106, 82, 82);
+    background-color: rgb(193, 226, 216);
+    border: 1px solid rgb(129, 105, 105);
     border-radius: 10px ;
 }
 
@@ -17,7 +19,7 @@
 .btn-cart{
 
     width: 100%;
-    background-color: #aca92ca8;
+    background-color: rgb(181, 181, 145);
     border: none;
     border-radius: 10px;
     padding: 10px 10px;
